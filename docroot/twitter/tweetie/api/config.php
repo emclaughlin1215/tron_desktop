@@ -2,7 +2,8 @@
   /**
    * Your Twitter App Info
    */
-
+echo($_SERVER('TWITTER_CONSUMER_KEY'));
+die();
   // Consumer Key
   define('CONSUMER_KEY', $_SERVER('TWITTER_CONSUMER_KEY'));
   define('CONSUMER_SECRET', $_SERVER['TWITTER_CONSUMER_SECRET']);

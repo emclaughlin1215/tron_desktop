@@ -125,8 +125,7 @@
                 if (typeof callback === 'function') { callback(); }
             });
         }).fail(function(e) {
-          alert("oh no");
-          alert( "error" );
+          that.html('ERROR: ('+e.status+") "+e.statusText);
         });
     };
 
