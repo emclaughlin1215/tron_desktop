@@ -125,7 +125,7 @@
                 if (typeof callback === 'function') { callback(); }
             });
         }).fail(function(e) {
-          that.html('ERROR: ('+e.status+") "+e.statusText);
+          that.html('ERROR: ('+e.status+") "+e.statusText+'<br />'+e.responseText);
         });
     };
 
