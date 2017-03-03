@@ -1,15 +1,15 @@
 <?php
-    /**
-     * Your Twitter App Info
-     */
+  /**
+   * Your Twitter App Info
+   */
 
-    // Consumer Key
-    define('CONSUMER_KEY', $_ENV('TWITTER_CONSUMER_KEY'));
-    define('CONSUMER_SECRET', $_ENV['TWITTER_CONSUMER_SECRET']);
+  // Consumer Key
+  define('CONSUMER_KEY', $_SERVER('TWITTER_CONSUMER_KEY'));
+  define('CONSUMER_SECRET', $_SERVER['TWITTER_CONSUMER_SECRET']);
 
-    // User Access Token
-    define('ACCESS_TOKEN', $_ENV['TWITTER_ACCESS_TOKEN']);
-    define('ACCESS_SECRET', $_ENV['TWITTER_ACCESS_SECRET']);
+  // User Access Token
+  define('ACCESS_TOKEN', $_SERVER['TWITTER_ACCESS_TOKEN']);
+  define('ACCESS_SECRET', $_SERVER['TWITTER_ACCESS_SECRET']);
 
 	// Cache Settings
 	define('CACHE_ENABLED', false);
