@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Electrofied";
+    src: url(../fonts/ELECTR.TTF) format("truetype");
+}
+
+td, th {
+  font-family: "Electrofied";
+  font-size: 1.37em;
+  color: #00FFFF;
+  text-align: right;
+}

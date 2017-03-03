@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity=""
+      crossorigin="anonymous"></script>
+
+    <script src="./tweetie/tweetie.js"></script>
+  </head>
+
+  <body>
+    <div class="twitter">
+    </div>
+    
+    <script>
+      $('.twitter').twittie({
+        'username': 'emclaughlin1215',
+        'count': 10,
+        'hideReplies': false,
+        'dateFormat': '%Y/%m/%d',
+        'template': '{{user_name}} ({{date}}): {{tweet}}',
+        'apiPath': 'tweetie/api/tweet.php'
+      }, function() {
+        alert('loaded!');
+      });
+    </script>
+  </body>
+</html>
